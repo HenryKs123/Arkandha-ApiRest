@@ -1,8 +1,8 @@
-Proyecto Django con API Rest Framework
+## Proyecto Django con API Rest Framework
 
 Este proyecto es una aplicación web construida con Django y Django REST Framework. Consiste en dos aplicaciones: una para administrar propiedades y otra para administrar propietarios. Utiliza una base de datos PostgreSQL y un entorno virtual para el desarrollo.
 
-Primeros pasos
+# Primeros pasos
 
 Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
@@ -63,7 +63,7 @@ A continuación, se detallan los endpoints disponibles en la aplicación:
   - Actualizar un propietario: `http://127.0.0.1:8000/Propietario/Propietario/{id}/put/`
   - Eliminar un propietario: `http://127.0.0.1:8000/Propietario/Propietario/{id}/delete/`
 
-Solución de problemas
+## Solución de problemas
 
 Configuración de CORS
 
