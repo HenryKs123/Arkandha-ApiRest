@@ -50,18 +50,18 @@ Endpoints
 A continuación, se detallan los endpoints disponibles en la aplicación:
 
 - Propiedad:
-  - Obtener todas las propiedades: `http://127.0.0.1:8000/propiedades/`
-  - Obtener detalles de una propiedad: `http://127.0.0.1:8000/propiedades/{id}/`
-  - Crear una nueva propiedad: `http://127.0.0.1:8000/propiedades/crear/`
-  - Actualizar una propiedad: `http://127.0.0.1:8000/propiedades/{id}/actualizar/`
-  - Eliminar una propiedad: `http://127.0.0.1:8000/propiedades/{id}/eliminar/`
+  - Obtener todas las propiedades: `http://127.0.0.1:8000/Propiedad/Propiedad/get/`
+  - Obtener detalles de una propiedad: `http://127.0.0.1:8000/Propiedad/Propiedad/{id}/`
+  - Crear una nueva propiedad: `http://127.0.0.1:8000/Propiedad/Propiedad/post/`
+  - Actualizar una propiedad: `http://127.0.0.1:8000/Propiedad/Propiedad/{id}/put/`
+  - Eliminar una propiedad: `http://127.0.0.1:8000/Propiedad/Propiedad/{id}/delete/`
 
 - Propietario:
-  - Obtener todos los propietarios: `http://127.0.0.1:8000/propietarios/`
-  - Obtener detalles de un propietario: `http://127.0.0.1:8000/propietarios/{id}/`
-  - Crear un nuevo propietario: `http://127.0.0.1:8000/propietarios/crear/`
-  - Actualizar un propietario: `http://127.0.0.1:8000/propietarios/{id}/actualizar/`
-  - Eliminar un propietario: `http://127.0.0.1:8000/propietarios/{id}/eliminar/`
+  - Obtener todos los propietarios: `http://127.0.0.1:8000/Propietario/Propietario/get/`
+  - Obtener detalles de un propietario: `http://127.0.0.1:8000/Propietario/Propietario/{id}/`
+  - Crear un nuevo propietario: `http://127.0.0.1:8000/Propietario/Propietario/post/`
+  - Actualizar un propietario: `http://127.0.0.1:8000/Propietario/Propietario/{id}/put/`
+  - Eliminar un propietario: `http://127.0.0.1:8000/Propietario/Propietario/{id}/delete/`
 
 Solución de problemas
 
