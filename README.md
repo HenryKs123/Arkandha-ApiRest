@@ -1,8 +1,8 @@
-## Proyecto Django con API Rest Framework
+# Proyecto Django con API Rest Framework
 
 Este proyecto es una aplicación web construida con Django y Django REST Framework. Consiste en dos aplicaciones: una para administrar propiedades y otra para administrar propietarios. Utiliza una base de datos PostgreSQL y un entorno virtual para el desarrollo.
 
-# Primeros pasos
+## Primeros pasos
 
 Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
@@ -34,7 +34,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
            'PORT': '5432',
        }
    }
-
+   estos datos deben ser los datos propios de cada "servidor" no olvidar cambiar el Name al nombre de la base de datos que se creo
 5. Realiza las migraciones:
 
    python manage.py migrate
@@ -74,3 +74,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:9000",  # Otro ejemplo si estás usando webpack-dev-server
 ]
 
+## Aclaraciones 
+
+No olvidar crear la base de datos en potgrets antes de crear las migraciones y no lo mas probable es que no funcione
